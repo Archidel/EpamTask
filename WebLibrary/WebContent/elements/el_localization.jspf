@@ -1,0 +1,38 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+<!DOCTYPE html PUBLIC>
+
+<html>
+	<fmt:setLocale value="${sessionScope.local}" />
+	<fmt:setBundle basename="resource.local" var="loc" />
+
+  	<fmt:message bundle="${loc}" key="local.button.ru" var="ru_button" />
+	<fmt:message bundle="${loc}" key="local.button.en" var="en_button" />	
+	<fmt:message bundle="${loc}" key="local.button.apply" var="apply_button"/>	
+
+	<fmt:message bundle="${loc}" key="local.label.library" var="library" />	
+	<fmt:message bundle="${loc}" key="local.label.signin" var="signin" />	
+	<fmt:message bundle="${loc}" key="local.label.signup" var="signup" />	
+
+	<fmt:message bundle="${loc}" key="local.label.login" var="login" />	
+	<fmt:message bundle="${loc}" key="local.label.password" var="password" />	
+	<fmt:message bundle="${loc}" key="local.label.name" var="name" />
+	<fmt:message bundle="${loc}" key="local.label.addNewBook" var="addNewBook" />
+
+	<fmt:message bundle="${loc}" key="local.label.title" var="title" />	
+	<fmt:message bundle="${loc}" key="local.label.author" var="author" />	
+	<fmt:message bundle="${loc}" key="local.label.genre" var="genre" />
+	<fmt:message bundle="${loc}" key="local.label.year" var="year" />
+	<fmt:message bundle="${loc}" key="local.label.quantity" var="quantity" />
+	
+	<fmt:message bundle="${loc}" key="local.label.getBooklist" var="getBooklist" />
+	<fmt:message bundle="${loc}" key="local.label.backToMainPage" var="backToMainPage" />
+	<fmt:message bundle="${loc}" key="local.label.booklist" var="booklist" />
+	<fmt:message bundle="${loc}" key="local.label.wrongRequest" var="wrongRequest" />
+	<fmt:message bundle="${loc}" key="local.label.idBook" var="idBook" />
+	
+	<fmt:message bundle="${loc}" key="local.label.out" var="out" />
+	<fmt:message bundle="${loc}" key="local.label.helloUser" var="helloUser" />
+	<fmt:message bundle="${loc}" key="local.label.editBook" var="editBook" />
+	
+</html>

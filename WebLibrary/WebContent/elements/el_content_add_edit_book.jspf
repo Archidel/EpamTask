@@ -1,0 +1,40 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<div>
+		<form action="Controller" method="post">
+			<input type="hidden" name="command" value="add_edit_book">
+			 <table border="1">
+	   			<caption>${editBook}</caption>
+	   			
+	   			<tr>
+	   				<td>${idBook}</td>
+	   				<td><input type="text" name="book_id"></td>
+	   			</tr>
+	   			<tr>
+	   				<td>${title}</td>
+	   				<td><input type="text" name="book_title"></td>
+	   			</tr>
+	   			<tr>
+	   				<td>${author}</td>
+	   				<td><input type="text" name="book_author"></td>
+	   			</tr>
+	   			<tr>
+	   				<td>${genre}</td>
+	   				<td><input type="text" name="book_genre"></td>
+	   			</tr>
+	   			
+	   			<tr>
+	   				<td>${year}</td>
+	   				<td><input type="text" name="book_year"></td>
+	   			</tr>
+	   			
+	   			<tr>
+	   				<td>${quantity}</td>
+	   				<td><input type="text" name="book_quantity"></td>
+	   			</tr>	   			 
+	   		</table>
+	   		<button type="submit">${apply_button}</button>
+		</form>
+	</div>
+</html>

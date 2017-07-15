@@ -1,0 +1,19 @@
+package by.epam.library.controller.command;
+
+public enum CommandName {
+	COMMAND,
+	
+	INITIALIZATION_SOURCE,
+	DESTROY_SOURCE,
+	
+	ADD_NEW_BOOK,
+	SIGN_IN,
+	SIGN_UP,
+	GET_BOOKLIST,
+	ADD_EDIT_BOOK,
+	REMOVE_BOOK,
+	
+	WRONG_REQUEST, 
+	LOCALIZATION, 
+	REDIRECT, OUT;
+}
